@@ -1,12 +1,11 @@
-# process monitor
+# Process Monitor
+Have you ever experienced long installation or compilation times that prevent you from running other processes or jobs?
 
-Have you ever experienced that the installation or compilling your code is too long to run other process or job?
+Here is the solution! Monitor-and-Run is a program that automatically executes a second process after the completion of an installation or compilation.
 
-Here is the solution! This 'monitor-and-run' is a program that async your second program after the installation or the compilation.
+Simply enter the PID of the long-running task and the command you want to run next.
 
-Enter the pid of the long-running task and the pid of what to run next.
-
-We provide GUI and CUI versions of the program.
+We provide both GUI and CUI versions of the program.
 
 ## How to use?
 
@@ -19,3 +18,13 @@ We provide GUI and CUI versions of the program.
 
 -v --version: Show program version
 ```
+
+### GUI
+
+![](Animation.gif)
+
+
+## Example Use Case
+
+- Automatically shut down your computer after an installation is complete.
+ *(That's Why I made this program!)*

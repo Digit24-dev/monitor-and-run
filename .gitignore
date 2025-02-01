@@ -1,3 +1,6 @@
 .venv
 __pycache__/
+build/
+dist/
 
+async_prog_manager.spec
